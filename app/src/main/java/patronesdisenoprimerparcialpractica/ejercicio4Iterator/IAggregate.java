@@ -1,5 +1,5 @@
 package patronesdisenoprimerparcialpractica.ejercicio4Iterator;
 
-public interface IMateria {
+public interface IAggregate {
     Iterator createIterator();
 }

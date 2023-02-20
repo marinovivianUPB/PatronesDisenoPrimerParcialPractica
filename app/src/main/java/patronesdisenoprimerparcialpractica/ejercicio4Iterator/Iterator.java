@@ -1,6 +1,6 @@
 package patronesdisenoprimerparcialpractica.ejercicio4Iterator;
 
 public interface Iterator {
-    Object next();
+    Estudiante next();
     boolean hasNext();
 }

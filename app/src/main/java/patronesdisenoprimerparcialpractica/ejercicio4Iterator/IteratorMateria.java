@@ -17,7 +17,7 @@ public class IteratorMateria implements Iterator {
     }
 
     @Override
-    public Object next() {
+    public Estudiante next() {
         return estudiantes.get(position++);
     }
     

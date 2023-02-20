@@ -30,7 +30,7 @@ public class Client {
 
     mate.show();
     while(iterator.hasNext()){
-        Estudiante aux = (Estudiante) iterator.next();
+        Estudiante aux = iterator.next();
         aux.show();
     }
 
@@ -38,7 +38,7 @@ public class Client {
 
     leng.show();
     while(iterator.hasNext()){
-        Estudiante aux = (Estudiante) iterator.next();
+        Estudiante aux =  iterator.next();
         aux.show();
     }
 
@@ -46,7 +46,7 @@ public class Client {
 
     hist.show();
     while(iterator.hasNext()){
-        Estudiante aux = (Estudiante) iterator.next();
+        Estudiante aux =  iterator.next();
         aux.show();
     }
 
@@ -54,7 +54,7 @@ public class Client {
 
     eng.show();
     while(iterator.hasNext()){
-        Estudiante aux = (Estudiante) iterator.next();
+        Estudiante aux = iterator.next();
         aux.show();
     }
 

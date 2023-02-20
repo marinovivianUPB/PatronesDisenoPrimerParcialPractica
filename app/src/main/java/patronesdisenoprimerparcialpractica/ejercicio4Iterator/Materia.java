@@ -3,7 +3,7 @@ package patronesdisenoprimerparcialpractica.ejercicio4Iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Materia implements IMateria {
+public class Materia implements IAggregate {
 
     private String nombre;
     private List<Estudiante> estudiantes;
